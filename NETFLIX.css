@@ -1,1 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color:black;
+    margin: 10px 23px;
+}
+
+nav {
+    background-color: rgb(54, 53, 53);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    transition-duration: 0.45s;
+    color: rgb(158, 152, 152);
+}
+
+nav i {
+    color: white;
+    font-size: 1.4rem;
+}
+nav i:hover{
+    transition-duration: 0.45s;
+    color: rgb(156, 146, 146);
+}
+
+span {
+    color: red;
+    font-size: 2.4rem;
+}
+
+main img {
+    height: 800px;
+    width: 1400px;
+    padding: 10PX;
+    border-radius: 20px;
+    border: 2px solid rgb(97, 94, 94);
+}
+
+footer {
+    color: white;
+    background-color: rgb(57, 54, 54);
+    border-radius: 10px;
+
+
+}
+
+.foot {
+
+    display: flex;
+    margin: 10px;
+
+}
+
+.foot div {
+    padding-left: 12.60%;
+}
+
+.foot ol li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.social {
+    margin: 23px 0;
+    padding: 30px;
+    justify-content: center;
+    padding-left: 37%;
+
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+    padding-left: 5%;
+
+}
+
+.social a:hover {
+    color: rgb(174, 90, 90);
+    transition-duration: 0.45s;
+
+}
+
+.search {
+    font-size: 1.5rem;
+
+}
+
+.search a {
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.mn {
+    padding: 20px;
+    padding-left: 40%;
+
+}
+
+h3 {
+    justify-content: center;
+}
+
+h2 {
+    padding: 30px;
+}
+
+main span {
+    color: black;
+    font-size: 1.4rem;
+}
+
+main i {
+    color: rgb(4, 4, 4);
+    font-size: 2.0rem;
+    display: inline;
+    top: 100%;
+    left: 6%;
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(120, 116, 116);
+
+}
+
+main i:hover {
+    transition-duration: 0.45s;
+    color: red;
+    background-color: rgb(177, 172, 172);
+
+}
+
+.mov {
+    padding: 2px;
+    padding-left: 15px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mov img {
+    height: 250px;
+    width: 250px;
+    padding: 13px;
+    border-radius: 10%;
+
+}
+.mov img:hover{
+    transition-duration: 0.9s;
+    height:280px;
+    width: 280px;
+}
+
+h2 {
+    color: white;
+}
